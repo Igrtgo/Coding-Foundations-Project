@@ -1,0 +1,99 @@
+.central-wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    color:white;
+    background: radial-gradient(farthest-side circle at 160px 0px, #444755, #191A1D);
+}
+
+/* left side */
+.central-wrapper > .central-left-column {
+    display: flex;
+    padding: 45px 40px;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Lato', sans-serif;
+    max-width: 50%;
+}
+
+.central-wrapper > .central-left-column > .central-text-01 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 18px;
+    line-height: 1.1em;
+}
+
+.central-wrapper > .central-left-column > .central-text-01 strong {
+    font-weight: 700;
+}
+
+.central-wrapper > .central-left-column > .central-text-02 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #b3b3b3; 
+    line-height: 1.42em;   
+}
+
+.central-wrapper > .central-left-column > .central-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.central-button-singup {
+    border-radius: 3px;
+    background: #4BCE79;      
+    color: black;
+    margin-right: 12px;
+    padding: 12px 18px;
+}
+
+.central-button-singup:hover {
+    background: #258e48;
+    color: white;
+}
+
+.central-button-learn {
+    border-radius: 3px;
+    background: #111111;
+    color: white;
+    margin-right: 12px;
+    padding: 12px 18px;
+}
+
+.central-button-learn:hover {
+    background: #1E1F26;
+}
+
+/* right side */
+.central-wrapper > .central-right-column {
+    max-width: 41%;
+    padding-top: 40px;
+}
+
+.central-wrapper > .central-right-column > .central-right-text {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.central-wrapper > .central-right-column > .central-right-text > .central-right-text01 {
+    padding-right: 3px;
+    font-size: 15px;
+}
+
+.central-wrapper > .central-right-column > .central-right-text > .central-right-text02 {
+    color: #76DAFF;
+    font-size: 15px;
+}
+
+.central-wrapper > .central-right-column > .central-right-image img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 8px;
+}

@@ -1,0 +1,117 @@
+.header-wrapper {
+    display: flex;
+    background-color: #000000;
+    height: 65px;
+}
+
+/*header left column*/
+.header-wrapper > .left-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    margin-right: 19px;
+}
+
+.header-wrapper > .left-column img {
+    display: block;
+    width: 138px;
+    height: 28px;
+}
+
+/*center column*/
+
+.header-wrapper > .Navbar {
+    display: flex;
+    justify-content: start;
+    font-family: 'Lato', sans-serif;
+    height: 80px;
+}
+
+.header-wrapper > .Navbar > .explore {
+    position: absolute;
+    color: #f4e17f;
+    font-size: 0.8rem;
+    top: 13px;
+    font-size: 13px;
+    font-weight: 900;
+    transform: scaleY(0.95);
+}
+
+.header-wrapper > .Navbar > .central-buttons {
+    display: flex;
+    align-items: center;
+    color: white;
+    top: 30px;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.header-wrapper > .Navbar > .central-buttons  a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-wrapper > .Navbar > .central-buttons > .central-access {
+    margin-right: 10px;
+}
+
+.header-wrapper > .Navbar > .central-buttons > .spark-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    color: #acacac;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.header-wrapper > .Navbar > .central-buttons > .spark-wrapper i {
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+/*header right column*/
+
+.header-wrapper > .right-column {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.header-wrapper > .right-column > .buttom {
+    padding: 10px 15px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 3px;
+    border: 3px solid transparent;
+    background: #36383F;
+    color: white;
+}
+.header-wrapper > .right-column > .buttom:hover {
+    background: #4e505a;
+
+}
+.header-wrapper > .right-column > .buttom i {
+    color: #47CF73;
+    padding-left: 4px;
+    font-size: 17px;
+}
+
+.header-wrapper > .right-column > .icon-search {
+    display: flex;
+    padding: 0px 10px;
+    height: 65px;
+    align-items: center;
+    color: #7b7e8c;
+    font-size: 1.8em;
+    margin-right: 10px;
+    -webkit-text-stroke: 1px;
+}
+
+.header-wrapper > .right-column > .icon-search i:hover {
+    color: white
+}
